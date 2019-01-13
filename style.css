@@ -1,5 +1,9 @@
 body {
-  background-color: brown;
+  background-image: url(woo2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
 }
 
 
@@ -8,7 +12,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 180px;
   height: 240px;
   width: 240px;
 }
@@ -23,9 +26,22 @@ img {
 
 i {
   color: white;
-  margin-left: 20px;
+  margin-left: 19px;
 }
 
 .links {
-  padding-left: 600px;
+}
+
+i:hover {
+  color: black;
+}
+
+.box {
+  background-color: rgb(156,81,63,0.3);
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin-left: 360px;
+  margin-right: 360px;
+  margin-top: 180px;
 }
